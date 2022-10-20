@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
 
 <head>
     <meta charset="UTF-8">
@@ -8,11 +13,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Archivo de ejemplo para trabajar con HTML y JS</title>
     <style>
+        html,
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+        }
+
         table,
         th,
         tr,
         td {
             border: 1px solid black;
+        }
+
+        .section {
+            /* margin: 20px;  Para márgenes arriba, izquierda, derecha y abajo*/
+            margin: 50px 20px;
+            padding: 10px;
+            border: 1px solid #e1e1e1;
+            border-radius: 3px;
         }
     </style>
 </head>
@@ -43,11 +62,39 @@
         </p>
     </div>
     <div class="section">
-        <h1>El primer título</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, sit nobis adipisci velit dolorem fugit
-            reiciendis illum consectetur maxime. Vero id autem temporibus odit? Pariatur quisquam minima esse eum odit.
-        </p>
+        <h2>El segundo título</h1>
+
+            <h3 id="desvanecimiento-etiqueta-index" class="span-1 span-chido mi-etiqueta-de-prueba">
+                Un subtítulo
+            </h3>
+            <p>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, sit nobis adipisci velit dolorem fugit
+                reiciendis illum consectetur maxime. Vero id autem temporibus odit? Pariatur quisquam minima esse
+                eum odit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt molestias odio totam itaque
+                inventore. Aperiam in dolorem illo voluptate iusto nobis. Doloribus, voluptatibus? Ipsum doloribus
+                reiciendis sapiente ipsa perferendis optio.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quo quam doloremque suscipit
+                voluptates, illo est nemo perferendis delectus sequi temporibus aliquam distinctio similique facere,
+                dignissimos tempora officiis, eos quos.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur voluptatum temporibus vel officiis
+                fugit maiores eveniet animi dicta! Similique voluptates accusamus unde eos nobis doloremque ullam
+                possimus adipisci, animi corrupti!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur voluptatum temporibus vel officiis
+                fugit maiores eveniet animi dicta! Similique voluptates accusamus unde eos nobis doloremque ullam
+                possimus adipisci, animi corrupti!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur voluptatum temporibus vel officiis
+                fugit maiores eveniet animi dicta! Similique voluptates accusamus unde eos nobis doloremque ullam
+                possimus adipisci, animi corrupti!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur voluptatum temporibus vel officiis
+                fugit maiores eveniet animi dicta! Similique voluptates accusamus unde eos nobis doloremque ullam
+                possimus adipisci, animi corrupti!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur voluptatum temporibus vel officiis
+                fugit maiores eveniet animi dicta! Similique voluptates accusamus unde eos nobis doloremque ullam
+                possimus adipisci, animi corrupti!
+            </p>
+
     </div>
     <div class="section">
         <h1>El primer título</h1>
